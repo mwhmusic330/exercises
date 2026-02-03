@@ -1,3 +1,4 @@
+#### Project Euler #7
 #### Find the 10,001st prime number.
 #### Add 1 to limit for accuracy.
 #### Create a set to dump not prime numbers.

@@ -1,4 +1,4 @@
-######## Sum of squares - squre of sum, Project Euler.
+######## Sum of squares - squre of sum, Project Euler #6.
 ######## Solve for first 100 natural numbers.
 ######## First created a function to find the sum of squares.
 ######## Using a for loop to square each number in range and add to list.
