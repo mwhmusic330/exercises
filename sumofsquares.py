@@ -9,21 +9,26 @@
 ######## Tested with with (1,10).
 ######## Called both functions/assigned variables.
 ######## subtracted the two variables in a print statement.
+######## optimized sumofsqures function into single return.
+######## optimized for user input
 
 def sumofsquares(start, end):
-    total = 0
-    for x in range(start,end +1):
-        total += x**2
-    return total
+    return sum([x**2 for x in range(start,end +1)])
+    
 
 def squareofsum(start, end):
     total = sum(range(start, end+1))
     return total**2
 
-def main():
-    sumsq = sumofsquares(1,100)
-    sqsum = squareofsum(1,100)
+def finalarith(x,y):
+    sumsq = sumofsquares(x,y)
+    sqsum = squareofsum(x,y)
     print(sqsum - sumsq)
+
+def main():
+    x = int(input("Bottom number of range? (interger)")) 
+    y = int(input("Top number of range? (interger)")) 
+    finalarith(x,y)
 
 if __name__ == '__main__':
     main()
