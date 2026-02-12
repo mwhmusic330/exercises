@@ -10,4 +10,4 @@ def multiples(n):
     return res
 print(time.perf_counter())
 
-##### print(multiples(1000))
+print(multiples(1000))
