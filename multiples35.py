@@ -11,3 +11,4 @@ def multiples(n):
 print(time.perf_counter())
 
 print(multiples(1000))
+
