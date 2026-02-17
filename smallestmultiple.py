@@ -3,10 +3,11 @@
 divisorlist = [11,13,14,16,17,18,19,20]
 
 def check_divisor(step):
-    for num in range(step, 999999999, step):
+    num = step
+    while True:
         if all(num % n == 0 for n in divisorlist):
             return num
-    return None
+        num += step
 
 
 if __name__ == '__main__':
